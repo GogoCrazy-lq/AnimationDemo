@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--oneshot = true 只播放一次  false 重复执行-->
+
+    <item android:drawable="@drawable/a01" android:duration="200"/>
+    <item android:drawable="@drawable/a02" android:duration="200"/>
+    <item android:drawable="@drawable/a03" android:duration="200"/>
+    <item android:drawable="@drawable/a04" android:duration="200"/>
+    <item android:drawable="@drawable/a05" android:duration="200"/>
+    <item android:drawable="@drawable/a06" android:duration="200"/>
+    <item android:drawable="@drawable/a07" android:duration="200"/>
+    <item android:drawable="@drawable/a08" android:duration="200"/>
+    <item android:drawable="@drawable/a09" android:duration="200"/>
+    <item android:drawable="@drawable/a10" android:duration="200"/>
+
+</animation-list>

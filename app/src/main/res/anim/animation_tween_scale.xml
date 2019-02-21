@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0.5"
+    android:fromYScale="0.5"
+    android:pivotX="20%"
+    android:pivotY="80%"
+    android:toXScale="1.5"
+    android:toYScale="2.0" />
+
+
+    <!--fromXScale X方向的开始缩放比例--><!--toXScale X方向目标缩放比例--><!--pivotX 缩放的中轴点X坐标  50% view的中心-->

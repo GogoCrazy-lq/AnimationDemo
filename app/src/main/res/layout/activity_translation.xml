@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sceneTransitionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scene场景动画"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sharedElementTransitionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="共享元素过渡动画"
+        android:textSize="16sp"
+        android:transitionName="@string/share_btn" />
+
+    <Button
+        android:id="@+id/activityTransitionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity过渡动画"
+        android:textSize="16sp" />
+
+</LinearLayout>

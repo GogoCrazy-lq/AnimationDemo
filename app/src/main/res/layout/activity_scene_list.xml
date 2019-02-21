@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/autoTransitionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto_Transition"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/changeBoundsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change_Bounds"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/slideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/explodeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explode"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/changeTransformBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change_Transform"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/changeScrollBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change_Scroll"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/fadeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/changeClipBoundsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChangeClipBounds"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/changeImageTransformBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChangeImageTransform"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/pathMotionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Path_Motion"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/setBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transition_Set"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

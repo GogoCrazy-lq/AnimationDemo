@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lq.animationdemo">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".simple.FrameAnimationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".simple.TweenAnimationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".simple.ProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".simple.tween.AlphaTweenAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.tween.ScaleTweenAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.tween.RotateTweenAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.tween.TranslateTweenAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.tween.SetTweenAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.propterty.AlphaProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.propterty.RotateProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.propterty.ScaleProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.propterty.SetProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".simple.propterty.TranslateProptertyAnimationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".simple.ProptertyAnimationExpActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.TransitionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.SceneTransitinListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.FadeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.AutoTransformActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.ChangeBoundsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.SlideActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.ExplodeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.ChangeTransformActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transition.scene.ChangeClipBoundsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transition.scene.ChangeImageTransformActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.TransitionSetActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.ChangeScrollActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.scene.PathMotionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".simple.ProptertyAnimationExpBtnActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.share.SharedElementActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transition.ActivityToActivityActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
