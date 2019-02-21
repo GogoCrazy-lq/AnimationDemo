@@ -9,8 +9,5 @@ Android动画总结示例
 ![](https://github.com/liuqiangit/AnimationDemo/tree/master/gif/5.png)
 ![](https://github.com/liuqiangit/AnimationDemo/tree/master/gif/6.png)
 
-演示动画
-![演示动画](https://github.com/liuqiangit/AnimationDemo/tree/master/gif/demo.gif)
-![演示动画](https://github.com/liuqiangit/AnimationDemo/tree/master/gif/taiyang.gif)
 
 
